@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev | Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor"></div>
+
+    <nav id="navbar">
+        <a href="#" class="logo">SANJEEV</a>
+        <div class="nav-links">
+            <a href="#about" class="active">/About</a>
+            <a href="#skills">/Skills</a>
+            <a href="#projects">/Works</a>
+            <a href="#logs">/Logs</a>
+            <a href="#contact" style="background: var(--yellow); color: #000;">/Hire_Me</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="reveal active">
+        
+        <!-- Hero Background Slider -->
+        <div class="hero-bg-slider">
+            <!-- Put your memory photos as background URLs here -->
+            <div class="hero-slide active" style="background-image: url('photos/random_photos/M.kumarasamy_winning.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('photos/random_photos/SIH_explain.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('photos/random_photos/CMR_WINNING.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('photos/random_photos/chairman-hackfest.jpg');"></div>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <h1 class="glitch">SANJEEV</h1>
+        <div class="tagline">Web Developer | Hackathon Winner | Team Leader</div>
+        <div class="intro" id="typewriter"></div>
+        <div class="hero-bottom">
+            <a href="#" class="btn btn-primary">Download Resume</a>
+            <a href="https://github.com/sanjeev7007" target="_blank" class="btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/sanjeev-s-t/" target="_blank" class="btn">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- About Me matches reference layout -->
+    <section id="about" class="reveal">
+        <div class="about-container">
+            <div class="about-img-box">
+                <div class="about-img-header">SANJEEV.S.T</div>
+                <!-- You can swap this with your real photo -->
+                <img src="photos\random_photos\profile2.jpeg" alt="Sanjeev Avatar">
+            </div>
+            <div class="about-text">
+                <h2 class="about-title">WHO AM I?</h2>
+                <div class="about-desc">
+                    I am Sanjeev. A creative developer who believes the web has become too sanitized. I bring <span class="highlight">personality</span> back to code.
+                </div>
+                <div class="about-bullets">
+                    <p>> Specialized in AI Systems and Web Development.</p>
+                    <p>> Obsessed with Hardware.</p>
+                    <p>> 3+ years of shipping code that actually works.</p>
+                </div>
+                <div class="about-status">
+                    <div class="status-pill">📍 LOCATION: WORLDWIDE</div>
+                    <div class="status-pill green">🟢 STATUS: AVAILABLE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="reveal">
+        <h2 class="section-title">TECH<span>_</span>STACK</h2>
+        <div class="skills-pyramid">
+            <!-- Tier 1: Core / Primary -->
+            <div class="pyramid-row">
+                <div class="skill-box primary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill-box primary">
+                    <!-- Generic brain/AI SVG -->
+                    <img src="photos\tech-stack\java.png" alt="JAVA">
+                    <span>Java</span>
+                </div>
+            </div>
+            
+            <!-- Tier 2: Major Skills -->
+            <div class="pyramid-row">
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\html5.png" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\css3.png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\js.png" alt="javascript">
+                    <span>JAVASCRIPT</span>
+                </div>
+            </div>
+            
+
+            <!-- Tier 3: Frameworks & Ecosystems -->
+            <div class="pyramid-row">
+                <div class="skill-box secondary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\fastapi.png" alt="FAST API">
+                    <span>FAST API</span>
+                </div>
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\flutter.png" alt="FLUTTER">
+                    <span>FLUTTER</span>
+                </div>
+                <div class="skill-box secondary">
+                    <img src="photos\tech-stack\ml-removebg-preview (1).png" alt="ML">
+                    <span>MACHINE LEARNING</span>
+                </div>
+            </div>
+
+            <!-- Tier 4: Tools & Utilities -->
+            <div class="pyramid-row">
+                <div class="skill-box tertiary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-box tertiary">
+                    <img src="photos\tech-stack\mysql.png" alt="MYSQL">
+                    <span>mySQL</span>
+                </div>
+                <div class="skill-box tertiary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                    <span>Docker</span>
+                </div>
+                <div class="skill-box tertiary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="skill-box tertiary">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                    <span>Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="reveal">
+        <h2 class="section-title">SELECTED<span>_</span>WORKS</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">AI-Probe For Buried Victim Detection</div>
+                <div class="project-body">
+                    <p class="project-desc">BeatRescue – An AI-powered disaster rescue system that detects vibrations from buried victims using geophone sensors and analyzes signals with machine learning to assist search-and-rescue teams.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Machine Learning</span>
+                        <span class="tech-pill">Signal Processing</span>
+                        <span class="tech-pill">Hardware Integration</span>
+                        <span class="tech-pill">Internet Of Things</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/sanjeev7007/BeatRescue-code/tree/main/BeatRescue-ECE-Hackathon" class="btn" target="_blank">GitHub</a>
+                    <a href="https://youtu.be/6ewSVpX7T8k?si=YMV0tWuNsJoOowcY" class="btn btn-primary" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">Agent Database & Task Management</div>
+                <div class="project-body">
+                    <p class="project-desc">Web application for organizing and judging hackathons, featuring real-time collaborative leaderboards.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">React</span>
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">MongoDB</span>
+                        <span class="tech-pill">Socket.io</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/sanjeev7007/mern-task-app" class="btn" target="_blank">GitHub</a>
+                    <a href="#" class="btn" style="background:#ddd; color:#888; cursor:not-allowed;" target="_blank">No Demo</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-header">LinkSafe – Real-Time URL Security App</div>
+                <div class="project-body">
+                    <p class="project-desc">An mobile security app that analyzes and scores URLs locally on Android devices by acting as an default browser to detect phishing and malicious links in real time.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">Flutter</span>
+                        <span class="tech-pill">Kotlin</span>
+                        <span class="tech-pill">Dart</span>
+                        <span class="tech-pill">Sqllite</span>
+                        <span class="tech-pill">Android SDK</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/sangsaist/LinkSafe-Android" class="btn" target="_blank">GitHub</a>
+                    <a href="#" class="btn" style="background:#ddd; color:#888; cursor:not-allowed;" target="_blank">No Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS (Sticky Scroll) -->
+    <section id="achievements" style="padding: 0; min-height: auto;">
+        <div class="achievements-section">
+            <div class="sticky-container">
+                <!-- Vertical Progress Bar -->
+                <div class="progress-indicator">
+                    <div class="progress-dot" data-index="0">01</div>
+                    <div class="progress-dot" data-index="1">02</div>
+                    <div class="progress-dot" data-index="2">03</div>
+                    <div class="progress-dot" data-index="3">04</div>
+                    <div class="progress-dot" data-index="4">05</div>
+                    <div class="progress-dot" data-index="5">06</div>
+                    <div class="progress-dot" data-index="6">07</div>
+                </div>
+
+                <!-- 7 Embedded Hackathon Slides -->
+                <div class="achievement-item active">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_01</div>
+                        <h3 class="ach-title">Smart India Hackathon 2025</h3>
+                        <p class="ach-desc">National Finalist. Got Selected amoung 500 Teams.</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Team Lead</span><span class="tech-pill">FastAPI</span><span class="tech-pill">MACHINE LEARNING</span>
+                        </div>
+                    </div>
+                    <!-- Random placeholder images that will float around the title -->
+                    <img src="https://picsum.photos/seed/hack1a/400/300" class="float-img top-left" alt="Hackathon 1 Team">
+                    <img src="https://picsum.photos/seed/hack1b/350/250" class="float-img bottom-right" alt="Hackathon 1 Project">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_02</div>
+                        <h3 class="ach-title">CMR hACKFEST 3.0</h3>
+                        <p class="ach-desc">First Runner UP. Won against 250+ teams</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Team Lead</span><span class="tech-pill">Machine Learning</span><span class="tech-pill">Hardware Integration</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack2a/400/300" class="float-img top-right" alt="Hackathon 2 Pitch">
+                    <img src="https://picsum.photos/seed/hack2b/300/400" class="float-img bottom-left" alt="Hackathon 2 Code">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_03</div>
+                        <h3 class="ach-title">MKCE-HACKFEST 2K26</h3>
+                        <p class="ach-desc">First Prize. Won Amoung 100+ Teams</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Team Lead</span><span class="tech-pill">IoT</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack3a/350/350" class="float-img center-left" alt="Hackathon 3 Award">
+                    <img src="https://picsum.photos/seed/hack3b/450/250" class="float-img top-right" alt="Hackathon 3 Screen">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_04</div>
+                        <h3 class="ach-title">Techathonx 2k26</h3>
+                        <p class="ach-desc">Best Performer - Juries Favourite Team</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">ESP32</span><span class="tech-pill">Node.js</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack4a/400/250" class="float-img bottom-left" alt="Hackathon 4 Hardware">
+                    <img src="https://picsum.photos/seed/hack4b/300/300" class="float-img center-right" alt="Hackathon 4 Dashboard">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_05</div>
+                        <h3 class="ach-title">kncet-Cognify</h3>
+                        <p class="ach-desc">Winner - 24 hours hackathon organised by ECE Department</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Hardware Integration</span><span class="tech-pill">Arudino</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack5a/350/400" class="float-img top-left" alt="Hackathon 5 Students">
+                    <img src="https://picsum.photos/seed/hack5b/400/300" class="float-img bottom-right" alt="Hackathon 5 Prototype">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">HACKATHON_06</div>
+                        <h3 class="ach-title">SRIT - VIHANSA 2K26</h3>
+                        <p class="ach-desc">Out of Technology - 11:11 Hackathon</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Flutter</span><span class="tech-pill">Dart</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack6a/450/300" class="float-img bottom-left" alt="Hackathon 6 Charts">
+                    <img src="https://picsum.photos/seed/hack6b/300/350" class="float-img top-right" alt="Hackathon 6 Team">
+                </div>
+
+                <div class="achievement-item">
+                    <div class="ach-content">
+                        <div class="ach-date">Internship_07</div>
+                        <h3 class="ach-title">Machine Learning - Internship</h3>
+                        <p class="ach-desc">Got Intership at Ideal Formatic Group Of Companies</p>
+                        <div class="tech-stack" style="justify-content: center; margin-top:20px;">
+                            <span class="tech-pill">Machine Learning</span><span class="tech-pill">Python</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/seed/hack7a/400/400" class="float-img center-left" alt="Hackathon 7 Stage">
+                    <img src="https://picsum.photos/seed/hack7b/350/250" class="float-img center-right" alt="Hackathon 7 App">
+                </div>
+                
+                <div class="sticky-footer">
+                    <span>/// HALL OF FAME</span>
+                    <span>SCROLL TO EXPLORE_</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Slider -->
+    <section id="logs" class="reveal">
+        <h2 class="section-title red-accent">CERTIFICATES<span>_</span></h2>
+        <div style="display: flex; flex-direction: column; gap: 40px;">
+            <div class="slider-wrapper" id="slider-certs">
+                <div class="slider-header">/// CERTIFICATIONS.DAT</div>
+                <div class="slider-track">
+                    <!-- 15 Certificates -->
+                    <div class="slide-card">
+                        <img src="photos\certificates\SIH_CERTIFICATE.jpg" alt="Certificate 1">
+                        <div><h3>SMART INDIA HACKATHON-2025</h3><p>Participation Certification</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\cmr photo.jpg" alt="Certificate 2">
+                        <div><h3>CMR HACKFEST 3.0</h3><p>RUNNER-UP CERTIFICATE</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\hackfest-2k26-winning.jpg" alt="Certificate 3">
+                        <div><h3>MKCT-HACKFEST-2K26 </h3><p>WINNING CERTIFICATE</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\prathyusha_winning.jpg" alt="Certificate 4">
+                        <div><h3>PRATHYUSHA ENGINEERING COLLEGE-TECHATHONX 2K26</h3><p>BEST PERFORMANCE CERTIFICATE</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\sri-ramakrishna-winning.jpg" alt="Certificate 5">
+                        <div><h3>SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY - VIHANSA 2K26</h3><p>Stanford Online</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\Sona_winning.jpg" alt="Certificate 6">
+                        <div><h3>SONA COLLEGE OF TECHNOLOGY - I'VENOR'25</h3><p>IDEA PRESENTATION WINNING CERTIFICATE</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\cognify winning.jpg" alt="Certificate 7">
+                        <div><h3>KNCET-COGNIFY</h3><p>Winning Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\vit-bhopal.jpg" alt="Certificate 8">
+                        <div><h3>VIT Bhopal - Health Hackathon</h3><p>Participation Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\pondy-hack-day.jpg" alt="Certificate 9">
+                        <div><h3>Sri Manakula Vinayagur Engineering College - Hack $Day </h3><p>Participation Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\ideal formatic intern.jpg" alt="Certificate 10">
+                        <div><h3>Ideal Formatic</h3><p>Intership Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\value added course - java.jpg" alt="Certificate 11">
+                        <div><h3>Core Java</h3><p>Value Added Course - Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\GENERATIVE AI .png" alt="Certificate 12">
+                        <div><h3>Linkedin Learning - Generation AI</h3><p>Course Completion Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\GuviCertification - P6Q162w22878J6Ac94.png" alt="Certificate 13">
+                        <div><h3>GUVI - UI/UX Design Expert</h3>Course Completion Certificate<p></p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\Elite Hack 1.0 .png" alt="Certificate 14">
+                        <div><h3>Elite Hack 1.0</h3><p>Partification Certificate</p></div>
+                    </div>
+                    <div class="slide-card">
+                        <img src="photos\certificates\kgis iv.jpg" alt="Certificate 15">
+                        <div><h3>KGiSL MicroCollege - Industrial Visit</h3><p>Prticipation Certificate</p></div>
+                    </div>
+                </div>
+                <!-- Only Right/Next Arrow Box as requested -->
+                <div class="slider-controls">
+                    <button class="slider-btn" onclick="moveSlider('slider-certs', 1)">[ NEXT CERTIFICATE &rarr; ]</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2 class="section-title">CONTACT</h2>
+        <div style="display:flex; justify-content:center; width:100%;">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSd6mnqVg8fGTo6ctTrXS5Ly0ID3szXLk5osFwr4iaaGb8F8pQ/formResponse" 
+            method="POST" 
+            target="_blank">
+            <div class="form-group">
+                <label>NAME</label>
+                <input type="text"
+                name="entry.1224157803"
+                required
+                placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label>EMAIL</label>
+                <input type="email"
+                name="entry.1859125306"
+                required
+                placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label>MESSAGE</label>
+                <textarea name="entry.121427017"
+                rows="5"
+                required
+                placeholder="Enter your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-green" style="margin-top:10px;">
+                SEND REQUEST
+            </button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <span style="background:#000; color:#fff; padding:5px 10px;">SYSTEM_EXIT</span>
+        <div style="margin-top:15px; font-weight:bold;">BUILT BY SANJEEV &middot; 202</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
